@@ -21,3 +21,4 @@ void swaptwo(int &A, int &B)
     int temp = A;
     A = B;
     B = temp;
+}
