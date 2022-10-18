@@ -2,12 +2,11 @@
 #include <iostream>
 using namespace std;
 
+//initiate swap two function
 void swaptwo(int&, int&);
 void swap(int&, int&, int&);
 
-// complete two functions
-// swap() ; to swap all three values like (a, b, c) to (c, a, b)
-//              This function will use swaptwo().
+// complete two functions 
 void swap(int &a, int &b, int &c)
 {
     string result;
@@ -16,7 +15,7 @@ void swap(int &a, int &b, int &c)
 
 }
 
-// swaptwo() ; to swap two values (a, b) to (b, a)
+// setting up swaptwo() ; to swap two values (a, b) to (b, a)
 void swaptwo(int &A, int &B)
 {
     int temp = A;
